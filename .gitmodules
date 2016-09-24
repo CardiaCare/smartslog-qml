@@ -1,0 +1,3 @@
+[submodule "smartslog-qml"]
+      path = smartslog
+      url = git://github.com/nekser/smartslog-qml.git
