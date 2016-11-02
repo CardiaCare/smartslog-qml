@@ -1,4 +1,4 @@
-#include "smartslog_plugin.h"
+#include "qmlsmartslogplugin.h"
 #include "qmlsmartslog.h"
 
 #include <qqml.h>

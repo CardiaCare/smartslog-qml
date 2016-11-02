@@ -18,17 +18,17 @@ INCLUDEPATH += \
             $$PWD/src/SmartSlog
 
 SOURCES += \
-    $$PWD/src/smartslog_plugin.cpp \
-    $$PWD/src/qmlsmartslog.cpp \
+    $$PWD/src/*.cpp \
     $$system(ls $$PWD/src/SmartSlog/utils/*.c) \
     $$system(ls $$PWD/src/SmartSlog/expat/*.c) \
     $$system(ls $$PWD/src/SmartSlog/scew/*.c)  \
     $$system(ls $$PWD/src/SmartSlog/ckpi/*.c)  \
-    $$system(ls $$PWD/src/SmartSlog/*.c)
+    $$system(ls $$PWD/src/SmartSlog/*.c) \
+    src/subscriptionmodel.cpp
 
 HEADERS += \
-    $$PWD/src/smartslog_plugin.h \
-    $$PWD/src/qmlsmartslog.h \
+    $$PWD/src/*.h \
+    src/subscriptionmodel.h
 
 
 OTHER_FILES += qmldir \
