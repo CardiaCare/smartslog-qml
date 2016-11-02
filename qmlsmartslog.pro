@@ -24,11 +24,9 @@ SOURCES += \
     $$system(ls $$PWD/src/SmartSlog/scew/*.c)  \
     $$system(ls $$PWD/src/SmartSlog/ckpi/*.c)  \
     $$system(ls $$PWD/src/SmartSlog/*.c) \
-    src/subscriptionmodel.cpp
 
 HEADERS += \
-    $$PWD/src/*.h \
-    src/subscriptionmodel.h
+    $$PWD/src/*.h
 
 
 OTHER_FILES += qmldir \

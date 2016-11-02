@@ -1,11 +1,9 @@
 #ifndef SUBSCRIPTIONMODEL_H
 #define SUBSCRIPTIONMODEL_H
+#include <QAbstractListModel>
 
-#include <QQuickItem>
-
-class SubscriptionModel : public QQuickItem
+class SubscriptionModel : public QAbstractListModel
 {
-    Q_OBJECT
 public:
     SubscriptionModel();
 

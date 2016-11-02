@@ -2,6 +2,12 @@
 #define SMARTSLOG_PLUGIN_H
 
 #include <QQmlExtensionPlugin>
+extern "C"{
+#include "SmartSlog/smartslog.h"
+}
+#include "ssnode.h"
+//#include "subscriptionmodel.h"
+#include <qqml.h>
 
 class QmlSmartslogPlugin : public QQmlExtensionPlugin
 {
